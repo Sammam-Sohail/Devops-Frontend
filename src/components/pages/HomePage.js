@@ -7,7 +7,6 @@ export default function HomePage() {
     const name = queryParams.get('id');
     const history = useHistory();
 
-
     window.addEventListener("popstate", () => {
         history.go(1);
       });
