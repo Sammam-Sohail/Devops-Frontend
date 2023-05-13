@@ -38,7 +38,6 @@ export default function LoginPage() {
 
     return (
 
-        
          <div style={{textAlign: 'center'}}>
             
             { apiRes !== '' ?     
